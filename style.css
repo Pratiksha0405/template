@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    height: 550px;
+    width: 1200px;
+    
+}
+
+.left img{
+    padding-left: 50px;
+    height: 550px;
+    width: 600px;
+    background-image: url(images/design2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+h1{
+    color: blue;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top p{
+    color: black;
+    font-family: cursive;
+    margin-top: 30px;
+}
+
+button{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(233, 44, 81);
+    color: white;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.bottom .one{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.bottom p{
+    color: black;
+    padding-left: 10px;
+}
+.bottom img{
+    height: 40px;
+    padding-left: 10px;
+    
+}
+
+figure img{
+    height: 85px;
+    width: 150px;
+    margin-left: 1050px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
